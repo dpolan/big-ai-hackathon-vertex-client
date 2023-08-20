@@ -59,7 +59,7 @@ const app = express();
 app.use(function (req, res, next) {
   res.header(
     "Access-Control-Allow-Origin",
-    "bigcommerce-x-google-bigai-hackathon.mybigcommerce.com"
+    "https://bigcommerce-x-google-bigai-hackathon.mybigcommerce.com"
   );
   res.header(
     "Access-Control-Allow-Headers",
