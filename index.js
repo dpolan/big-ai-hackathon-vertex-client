@@ -71,7 +71,7 @@ app.use(function (req, res, next) {
 app.options("/*", function (req, res, next) {
   res.header(
     "Access-Control-Allow-Origin",
-    "bigcommerce-x-google-bigai-hackathon.mybigcommerce.com"
+    "https://bigcommerce-x-google-bigai-hackathon.mybigcommerce.com"
   );
   res.header("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE,OPTIONS");
   res.header(
